@@ -39,7 +39,7 @@
 
 def did_i_win_down(player, board):
 
-    for i in range(len(board[0])):
+    for i in range(3):
         if player == board[0][i] and player == board[1][i] and player == board[2][i]:
             return True
     return False
